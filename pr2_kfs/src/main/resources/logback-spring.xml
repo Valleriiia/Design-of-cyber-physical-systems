@@ -1,0 +1,36 @@
+<configuration>
+
+    <!-- Appender для запису логів в файл -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/app.log</file>
+        <append>true</append> <!-- Додаємо нові логи до існуючих -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Вимкнути виведення всіх логів в консоль -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.core.filter.LevelFilter">
+            <level>OFF</level> <!-- Вимикає всі рівні логування в консоль -->
+        </filter>
+    </appender>
+
+    <!-- Налаштування для Hibernate SQL запитів, логувати тільки у файл -->
+    <logger name="org.hibernate.SQL" level="DEBUG">
+        <appender-ref ref="FILE" /> <!-- Запис в файл -->
+    </logger>
+
+    <!-- Налаштування для Hibernate параметрів -->
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE">
+        <appender-ref ref="FILE" /> <!-- Запис в файл -->
+    </logger>
+
+    <!-- Задаємо рівень логування і виведення в файл -->
+    <root level="INFO">
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>
