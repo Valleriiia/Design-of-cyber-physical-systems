@@ -52,7 +52,7 @@ public class MeterReadingServiceTest {
         newReading.setDateTime(LocalDateTime.now());
 
         when(meterRepository.findByMeterNumber(String.valueOf(10))).thenReturn(Optional.of(meter));
-        when(meterReadingRepository.findByMeterId(1L)).thenReturn(List.of(previousReading));
+        when(meterReadingRepository.findByMeterIdOrderByDateTimeAsc(1L)).thenReturn(List.of(previousReading));
 
         boolean result = meterReadingService.saveMeterReading(newReading);
 
@@ -91,7 +91,7 @@ public class MeterReadingServiceTest {
         newReading.setDateTime(LocalDateTime.now());
 
         when(meterRepository.findByMeterNumber(String.valueOf(10))).thenReturn(Optional.of(meter));
-        when(meterReadingRepository.findByMeterId(1L)).thenReturn(List.of(previousReading));
+        when(meterReadingRepository.findByMeterIdOrderByDateTimeAsc(1L)).thenReturn(List.of(previousReading));
 
         boolean result = meterReadingService.saveMeterReading(newReading);
 
@@ -108,7 +108,7 @@ public class MeterReadingServiceTest {
         newReading.setDateTime(LocalDateTime.now());
 
         when(meterRepository.findByMeterNumber(String.valueOf(10))).thenReturn(Optional.of(meter));
-        when(meterReadingRepository.findByMeterId(1L)).thenReturn(List.of(previousReading));
+        when(meterReadingRepository.findByMeterIdOrderByDateTimeAsc(1L)).thenReturn(List.of(previousReading));
 
         boolean result = meterReadingService.saveMeterReading(newReading);
 
@@ -125,7 +125,7 @@ public class MeterReadingServiceTest {
         newReading.setDateTime(LocalDateTime.now());
 
         when(meterRepository.findByMeterNumber(String.valueOf(10))).thenReturn(Optional.of(meter));
-        when(meterReadingRepository.findByMeterId(1L)).thenReturn(List.of(previousReading));
+        when(meterReadingRepository.findByMeterIdOrderByDateTimeAsc(1L)).thenReturn(List.of(previousReading));
 
         boolean result = meterReadingService.saveMeterReading(newReading);
 
@@ -142,7 +142,7 @@ public class MeterReadingServiceTest {
         newReading.setDateTime(LocalDateTime.now());
 
         when(meterRepository.findByMeterNumber(String.valueOf(10))).thenReturn(Optional.of(meter));
-        when(meterReadingRepository.findByMeterId(1L)).thenReturn(List.of(previousReading));
+        when(meterReadingRepository.findByMeterIdOrderByDateTimeAsc(1L)).thenReturn(List.of(previousReading));
 
         boolean result = meterReadingService.saveMeterReading(newReading);
 
