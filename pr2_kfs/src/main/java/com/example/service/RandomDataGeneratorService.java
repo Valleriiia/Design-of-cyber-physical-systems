@@ -48,24 +48,24 @@ public class RandomDataGeneratorService {
                 MeterReading lastReading = readings.get(readings.size() - 1);
                 newDayReading = (int) (lastReading.getDayReading() + random.nextInt(100) + 1);
                 newNightReading = (int) (lastReading.getNightReading() + random.nextInt(100) + 1);
-                logger.info("🔁 Лічильник {} знайдено. Попередні значення: день={}, ніч={}",
+                logger.info("Лічильник {} знайдено. Попередні значення: день={}, ніч={}",
                         meterNumber, lastReading.getDayReading(), lastReading.getNightReading());
             } else {
                 newDayReading = random.nextInt(100) + 1;
                 newNightReading = random.nextInt(100) + 1;
-                logger.info("ℹ️ Лічильник {} знайдено, але без показників. Стартові значення: день={}, ніч={}",
+                logger.info("Лічильник {} знайдено, але без показників. Стартові значення: день={}, ніч={}",
                         meterNumber, newDayReading, newNightReading);
             }
         } else {
             newDayReading = random.nextInt(100) + 1;
             newNightReading = random.nextInt(100) + 1;
-            logger.info("🆕 Лічильник {} не знайдено. Надсилаємо стартові показники: день={}, ніч={}",
+            logger.info("Лічильник {} не знайдено. Надсилаємо стартові показники: день={}, ніч={}",
                     meterNumber, newDayReading, newNightReading);
         }
 
         String message = meterNumber + "," + newDayReading + "," + newNightReading;
         queueService.sendMessage(message);
 
-        logger.info("📤 Надіслано повідомлення: " + message);
+        logger.info("Надіслано повідомлення: " + message);
     }
 }

@@ -3697,13 +3697,13 @@
 2025-03-25 13:00:41 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:00:41 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 13:00:41 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 13:00:41 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 76: знайдено 5 запис(ів)
+2025-03-25 13:00:41 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 76: знайдено 5 запис(ів)
 2025-03-25 13:00:41 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Попередні значення для лічильника 76: день=877.0, ніч=349.0
 2025-03-25 13:00:41 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 76,966,372
 2025-03-25 13:00:41 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 76,966,372
 2025-03-25 13:00:45 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:00:45 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:00:45 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 25: знайдено 0 запис(ів)
+2025-03-25 13:00:45 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 25: знайдено 0 запис(ів)
 2025-03-25 13:00:45 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 25,89,6
 2025-03-25 13:00:45 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 25,89,6
 2025-03-25 13:00:50 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 76,966,372
@@ -3751,12 +3751,12 @@
 2025-03-25 13:00:51 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 25 успішно створений: 229.7 грн
 2025-03-25 13:00:51 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:00:51 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:00:51 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 18: знайдено 0 запис(ів)
+2025-03-25 13:00:51 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 18: знайдено 0 запис(ів)
 2025-03-25 13:00:51 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 18,76,27
 2025-03-25 13:00:51 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 18,76,27
 2025-03-25 13:00:55 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:00:55 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:00:55 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 92: знайдено 0 запис(ів)
+2025-03-25 13:00:55 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 92: знайдено 0 запис(ів)
 2025-03-25 13:00:55 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 92,97,66
 2025-03-25 13:00:55 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 92,97,66
 2025-03-25 13:01:00 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 18,76,27
@@ -3801,12 +3801,12 @@
 2025-03-25 13:01:01 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 92 успішно створений: 346.0 грн
 2025-03-25 13:01:01 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:01:01 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:01:01 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 49: знайдено 0 запис(ів)
+2025-03-25 13:01:01 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 49: знайдено 0 запис(ів)
 2025-03-25 13:01:01 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 49,75,86
 2025-03-25 13:01:01 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 49,75,86
 2025-03-25 13:01:05 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:01:05 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:01:05 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 20: знайдено 0 запис(ів)
+2025-03-25 13:01:05 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 20: знайдено 0 запис(ів)
 2025-03-25 13:01:05 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 20,69,70
 2025-03-25 13:01:05 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 20,69,70
 2025-03-25 13:01:10 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 49,75,86
@@ -3851,14 +3851,14 @@
 2025-03-25 13:01:11 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 20 успішно створений: 346.0 грн
 2025-03-25 13:01:11 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:01:11 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
-2025-03-25 13:01:11 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 6: знайдено 0 запис(ів)
+2025-03-25 13:01:11 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 6: знайдено 0 запис(ів)
 2025-03-25 13:01:11 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 6,65,38
 2025-03-25 13:01:11 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 6,65,38
 2025-03-25 13:01:15 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:01:15 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 13:01:15 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 13:01:15 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 13:01:15 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔍 Перевірка показань для meterId 79: знайдено 5 запис(ів)
+2025-03-25 13:01:15 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Перевірка показань для meterId 79: знайдено 5 запис(ів)
 2025-03-25 13:01:15 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Попередні значення для лічильника 79: день=785.0, ніч=448.0
 2025-03-25 13:01:15 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 79,831,540
 2025-03-25 13:01:15 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Згенеровано нові дані: 79,831,540
@@ -3895,18 +3895,18 @@
 2025-03-25 14:21:39 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:39 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:21:39 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:21:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 31 знайдено. Попередні значення: день=517.0, ніч=478.0
+2025-03-25 14:21:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 31 знайдено. Попередні значення: день=517.0, ніч=478.0
 2025-03-25 14:21:39 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 31,596,568
-2025-03-25 14:21:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 31,596,568
+2025-03-25 14:21:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 31,596,568
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:21:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:21:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 41 знайдено. Попередні значення: день=739.0, ніч=689.0
+2025-03-25 14:21:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 41 знайдено. Попередні значення: день=739.0, ніч=689.0
 2025-03-25 14:21:44 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 41,775,739
-2025-03-25 14:21:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 41,775,739
+2025-03-25 14:21:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 41,775,739
 2025-03-25 14:21:49 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 31,596,568
 2025-03-25 14:21:49 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 31,596,568
 2025-03-25 14:21:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -3953,18 +3953,18 @@
 2025-03-25 14:21:49 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:21:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:21:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 5 знайдено. Попередні значення: день=921.0, ніч=744.0
+2025-03-25 14:21:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 5 знайдено. Попередні значення: день=921.0, ніч=744.0
 2025-03-25 14:21:49 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 5,951,778
-2025-03-25 14:21:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 5,951,778
+2025-03-25 14:21:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 5,951,778
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:21:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:21:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 28 знайдено. Попередні значення: день=785.0, ніч=448.0
+2025-03-25 14:21:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 28 знайдено. Попередні значення: день=785.0, ніч=448.0
 2025-03-25 14:21:54 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 28,868,486
-2025-03-25 14:21:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 28,868,486
+2025-03-25 14:21:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 28,868,486
 2025-03-25 14:21:59 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 5,951,778
 2025-03-25 14:21:59 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 5,951,778
 2025-03-25 14:21:59 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4011,18 +4011,18 @@
 2025-03-25 14:21:59 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:21:59 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:21:59 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:21:59 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 98 знайдено. Попередні значення: день=735.0, ніч=769.0
+2025-03-25 14:21:59 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 98 знайдено. Попередні значення: день=735.0, ніч=769.0
 2025-03-25 14:21:59 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 98,821,802
-2025-03-25 14:21:59 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 98,821,802
+2025-03-25 14:21:59 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 98,821,802
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:04 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:04 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 28 знайдено. Попередні значення: день=868.0, ніч=486.0
+2025-03-25 14:22:04 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 28 знайдено. Попередні значення: день=868.0, ніч=486.0
 2025-03-25 14:22:04 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 28,908,519
-2025-03-25 14:22:04 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 28,908,519
+2025-03-25 14:22:04 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 28,908,519
 2025-03-25 14:22:09 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 98,821,802
 2025-03-25 14:22:09 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 98,821,802
 2025-03-25 14:22:09 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4069,18 +4069,18 @@
 2025-03-25 14:22:09 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:09 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:09 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:09 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 74 знайдено. Попередні значення: день=943.0, ніч=945.0
+2025-03-25 14:22:09 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 74 знайдено. Попередні значення: день=943.0, ніч=945.0
 2025-03-25 14:22:09 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 74,964,962
-2025-03-25 14:22:09 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 74,964,962
+2025-03-25 14:22:09 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 74,964,962
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:14 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:14 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 50 знайдено. Попередні значення: день=489.0, ніч=560.0
+2025-03-25 14:22:14 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 50 знайдено. Попередні значення: день=489.0, ніч=560.0
 2025-03-25 14:22:14 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 50,561,619
-2025-03-25 14:22:14 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 50,561,619
+2025-03-25 14:22:14 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 50,561,619
 2025-03-25 14:22:19 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 74,964,962
 2025-03-25 14:22:19 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 74,964,962
 2025-03-25 14:22:19 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4127,18 +4127,18 @@
 2025-03-25 14:22:19 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:19 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:19 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:19 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 66 знайдено. Попередні значення: день=555.0, ніч=580.0
+2025-03-25 14:22:19 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 66 знайдено. Попередні значення: день=555.0, ніч=580.0
 2025-03-25 14:22:19 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 66,571,638
-2025-03-25 14:22:19 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 66,571,638
+2025-03-25 14:22:19 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 66,571,638
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:24 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:24 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 73 знайдено. Попередні значення: день=994.0, ніч=997.0
+2025-03-25 14:22:24 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 73 знайдено. Попередні значення: день=994.0, ніч=997.0
 2025-03-25 14:22:24 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 73,1072,1023
-2025-03-25 14:22:24 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 73,1072,1023
+2025-03-25 14:22:24 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 73,1072,1023
 2025-03-25 14:22:29 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 66,571,638
 2025-03-25 14:22:29 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 66,571,638
 2025-03-25 14:22:29 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4185,18 +4185,18 @@
 2025-03-25 14:22:29 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:29 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:29 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:29 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 65 знайдено. Попередні значення: день=1040.0, ніч=812.0
+2025-03-25 14:22:29 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 65 знайдено. Попередні значення: день=1040.0, ніч=812.0
 2025-03-25 14:22:29 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 65,1115,841
-2025-03-25 14:22:29 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 65,1115,841
+2025-03-25 14:22:29 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 65,1115,841
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:34 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:34 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 74 знайдено. Попередні значення: день=964.0, ніч=962.0
+2025-03-25 14:22:34 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 74 знайдено. Попередні значення: день=964.0, ніч=962.0
 2025-03-25 14:22:34 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 74,994,980
-2025-03-25 14:22:34 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 74,994,980
+2025-03-25 14:22:34 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 74,994,980
 2025-03-25 14:22:39 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 65,1115,841
 2025-03-25 14:22:39 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 65,1115,841
 2025-03-25 14:22:39 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4243,18 +4243,18 @@
 2025-03-25 14:22:39 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:39 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:39 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 68 знайдено. Попередні значення: день=188.0, ніч=20.0
+2025-03-25 14:22:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 68 знайдено. Попередні значення: день=188.0, ніч=20.0
 2025-03-25 14:22:39 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 68,235,30
-2025-03-25 14:22:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 68,235,30
+2025-03-25 14:22:39 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 68,235,30
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:44 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 70 знайдено. Попередні значення: день=1001.0, ніч=821.0
+2025-03-25 14:22:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 70 знайдено. Попередні значення: день=1001.0, ніч=821.0
 2025-03-25 14:22:44 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 70,1090,845
-2025-03-25 14:22:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 70,1090,845
+2025-03-25 14:22:44 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 70,1090,845
 2025-03-25 14:22:49 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 68,235,30
 2025-03-25 14:22:49 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 68,235,30
 2025-03-25 14:22:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
@@ -4301,18 +4301,340 @@
 2025-03-25 14:22:49 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:49 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 28 знайдено. Попередні значення: день=908.0, ніч=519.0
+2025-03-25 14:22:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 28 знайдено. Попередні значення: день=908.0, ніч=519.0
 2025-03-25 14:22:49 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 28,936,555
-2025-03-25 14:22:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 28,936,555
+2025-03-25 14:22:49 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 28,936,555
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
 2025-03-25 14:22:54 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
-2025-03-25 14:22:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 🔁 Лічильник 10 знайдено. Попередні значення: день=406.0, ніч=412.0
+2025-03-25 14:22:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 10 знайдено. Попередні значення: день=406.0, ніч=412.0
 2025-03-25 14:22:54 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 10,462,503
-2025-03-25 14:22:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - 📤 Надіслано повідомлення: 10,462,503
+2025-03-25 14:22:54 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 10,462,503
 2025-03-25 14:22:55 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-03-25 14:22:55 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-03-25 14:22:55 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-27 13:01:46 INFO  [main] com.example.Application - Starting Application using Java 21 with PID 24648 (C:\acd\pr2_kfs\target\classes started by Lera in C:\acd\pr2_kfs)
+2025-03-27 13:01:46 INFO  [main] com.example.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-27 13:01:47 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27 13:01:47 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces.
+2025-03-27 13:01:48 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-27 13:01:48 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-27 13:01:48 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-27 13:01:48 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-03-27 13:01:48 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-27 13:01:48 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2296 ms
+2025-03-27 13:01:49 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27 13:01:49 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-03-27 13:01:49 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-27 13:01:49 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27 13:01:49 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-27 13:01:50 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7afb9c93
+2025-03-27 13:01:50 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-27 13:01:50 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-27 13:01:51 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27 13:01:51 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 13:01:51 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27 13:01:52 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-27 13:01:52 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-03-27 13:01:52 INFO  [main] com.example.Application - Started Application in 6.483 seconds (process running for 7.005)
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:01:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:01:52 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 33 знайдено. Попередні значення: день=1106.0, ніч=782.0
+2025-03-27 13:01:52 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 33,1148,823
+2025-03-27 13:01:52 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 33,1148,823
+2025-03-27 13:01:56 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-27 13:01:56 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-27 13:01:56 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:01:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:01:57 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 34 знайдено. Попередні значення: день=514.0, ніч=674.0
+2025-03-27 13:01:57 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 34,613,769
+2025-03-27 13:01:57 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 34,613,769
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 33,1148,823
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 33,1148,823
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 1148.0/823.0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:02 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 33 успішно створений: 154.2 грн
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 34,613,769
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 34,613,769
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 613.0/769.0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:02 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 34 успішно створений: 361.5 грн
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 27 знайдено. Попередні значення: день=508.0, ніч=194.0
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 27,603,233
+2025-03-27 13:02:02 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 27,603,233
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:07 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:07 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 3 знайдено. Попередні значення: день=592.0, ніч=473.0
+2025-03-27 13:02:07 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 3,647,479
+2025-03-27 13:02:07 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 3,647,479
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 27,603,233
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 27,603,233
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 603.0/233.0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:12 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 27 успішно створений: 284.3 грн
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 3,647,479
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 3,647,479
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 647.0/479.0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:12 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 3 успішно створений: 144.7 грн
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:12 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 32 знайдено. Попередні значення: день=371.0, ніч=331.0
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 32,441,428
+2025-03-27 13:02:12 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 32,441,428
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:17 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:17 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 46 знайдено. Попередні значення: день=420.0, ніч=404.0
+2025-03-27 13:02:17 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 46,451,446
+2025-03-27 13:02:17 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 46,451,446
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 32,441,428
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 32,441,428
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 441.0/428.0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:22 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 32 успішно створений: 291.4 грн
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 46,451,446
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 46,451,446
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 451.0/446.0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:22 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 46 успішно створений: 127.9 грн
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:22 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 17 знайдено. Попередні значення: день=264.0, ніч=59.0
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 17,318,109
+2025-03-27 13:02:22 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 17,318,109
+2025-03-27 13:02:24 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 13:02:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-27 13:02:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-27 13:02:42 INFO  [main] com.example.Application - Starting Application using Java 21 with PID 23208 (C:\acd\pr2_kfs\target\classes started by Lera in C:\acd\pr2_kfs)
+2025-03-27 13:02:42 INFO  [main] com.example.Application - No active profile set, falling back to 1 default profile: "default"
+2025-03-27 13:02:43 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27 13:02:43 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2025-03-27 13:02:43 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-03-27 13:02:43 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-03-27 13:02:43 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-27 13:02:43 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2025-03-27 13:02:43 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-27 13:02:43 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1408 ms
+2025-03-27 13:02:44 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27 13:02:44 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2025-03-27 13:02:44 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-03-27 13:02:44 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27 13:02:44 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-27 13:02:45 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66715ca9
+2025-03-27 13:02:45 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-27 13:02:45 WARN  [main] org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-27 13:02:46 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27 13:02:46 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 13:02:46 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27 13:02:47 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-03-27 13:02:47 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-03-27 13:02:47 INFO  [main] com.example.Application - Started Application in 5.527 seconds (process running for 5.926)
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:47 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:47 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 43 знайдено. Попередні значення: день=179.0, ніч=487.0
+2025-03-27 13:02:47 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 43,256,528
+2025-03-27 13:02:47 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 43,256,528
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:52 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:52 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 95 знайдено. Попередні значення: день=830.0, ніч=707.0
+2025-03-27 13:02:52 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 95,929,794
+2025-03-27 13:02:52 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 95,929,794
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select b1_0.id,b1_0.billing_date,b1_0.day_usage,b1_0.meter_id,b1_0.night_usage,b1_0.total_cost from bill b1_0 left join meter m1_0 on m1_0.id=b1_0.meter_id where m1_0.id=?
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select b1_0.id,b1_0.billing_date,b1_0.day_usage,b1_0.meter_id,b1_0.night_usage,b1_0.total_cost from bill b1_0 left join meter m1_0 on m1_0.id=b1_0.meter_id where m1_0.id=?
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:54 DEBUG [main] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 43,256,528
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 43,256,528
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 256.0/528.0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:57 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 43 успішно створений: 241.7 грн
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Отримано з черги: 95,929,794
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.MeterReadingService - Обробка показників: 95,929,794
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into meter_reading (date_time,day_value,meter_id,night_value) values (?,?,?,?)
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.MeterReadingService - Збережено показники: 929.0/794.0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select t1_0.id,t1_0.active_from,t1_0.day_rate,t1_0.night_rate from tariff t1_0
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - insert into bill (billing_date,day_usage,meter_id,night_usage,total_cost) values (?,?,?,?,?)
+2025-03-27 13:02:57 INFO  [scheduling-1] com.example.service.BillService - Рахунок для лічильника 95 успішно створений: 351.9 грн
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:57 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 33 знайдено. Попередні значення: день=1148.0, ніч=823.0
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 33,1186,904
+2025-03-27 13:02:57 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 33,1186,904
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.meter_number=?
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select mr1_0.id,mr1_0.date_time,mr1_0.day_value,mr1_0.meter_id,mr1_0.night_value from meter_reading mr1_0 left join meter m1_0 on m1_0.id=mr1_0.meter_id where m1_0.id=? order by mr1_0.date_time
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:03:02 DEBUG [scheduling-1] org.hibernate.SQL - select m1_0.id,m1_0.meter_number from meter m1_0 where m1_0.id=?
+2025-03-27 13:03:02 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Лічильник 45 знайдено. Попередні значення: день=915.0, ніч=984.0
+2025-03-27 13:03:02 INFO  [scheduling-1] c.e.service.InMemoryQueueService - Відправлено: 45,970,1078
+2025-03-27 13:03:02 INFO  [scheduling-1] c.e.s.RandomDataGeneratorService - Надіслано повідомлення: 45,970,1078
+2025-03-27 13:03:02 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27 13:03:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-27 13:03:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

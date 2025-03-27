@@ -43,25 +43,25 @@ public class ApplicationRunner implements CommandLineRunner {
 
                     Optional<Meter> optionalMeter = meterService.getMeterByNumber(String.valueOf(meterNumber));
                     if (optionalMeter.isEmpty()) {
-                        System.out.println("❌ Лічильник не знайдено.");
+                        System.out.println("Лічильник не знайдено.");
                         break;
                     }
                     Meter meter = optionalMeter.get();
 
                     List<Bill> bills = billService.getBillsForMeter(meter.getId());
                     if (bills.isEmpty()) {
-                        System.out.println("ℹ️ Немає рахунків для цього лічильника.");
+                        System.out.println("Немає рахунків для цього лічильника.");
                     } else {
-                        System.out.println("\n🧾 Історія рахунків для лічильника №" + meterNumber + ":");
+                        System.out.println("\nІсторія рахунків для лічильника №" + meterNumber + ":");
                         for (Bill bill : bills) {
-                            System.out.println("📅 Дата: " + bill.getBillingDate() +
-                                    " | 💰 Сума: " + bill.getTotalCost() + " грн");
+                            System.out.println("Дата: " + bill.getBillingDate() +
+                                    " | Сума: " + bill.getTotalCost() + " грн");
                         }
                     }
                     break;
 
                 case 2:
-                    System.out.println("👋 Завершення програми...");
+                    System.out.println("Завершення програми...");
                     System.exit(0);
 
                 default:
