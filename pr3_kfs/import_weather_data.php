@@ -1,6 +1,6 @@
 <?php
 
-require_once 'backend/database/database.php';
+require_once 'backend/database.php';
 
 $csvFile = fopen('data/GlobalWeatherRepository.csv', 'r');
 if (!$csvFile) {
