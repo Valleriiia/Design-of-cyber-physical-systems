@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Аналітика вітру</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    canvas { margin: 30px auto; display: block; max-width: 800px; width: 800px !important; height: 350px !important; }
+    body { font-family: sans-serif; padding: 20px; background: #f9f9f9; }
+  </style>
+</head>
+  
+<body>
+    <h1>Аналіз та прогноз вітру</h1>
+  
+    <label for="locationSelect">Оберіть локацію:</label>
+    <select id="locationSelect"></select>
+  
+    <h2>1. Прогноз сили вітру (з історією)</h2>
+    <canvas id="forecastChart"></canvas>
+  
+    <h2>2. Категорії сили вітру</h2>
+    <canvas id="impactChart"></canvas>
+  
+    <h2>3. Вплив вітру на температуру</h2>
+    <canvas id="feelDeltaChart"></canvas>
+  </body>
+  
+</html>
