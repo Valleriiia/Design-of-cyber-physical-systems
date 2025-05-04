@@ -1,0 +1,17 @@
+{
+    "name": "lera/kfs_pr3_2.0",
+    "autoload": {
+        "psr-4": {
+            "Lera\\KfsPr320\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valleriiia",
+            "email": "168529644+Valleriiia@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
