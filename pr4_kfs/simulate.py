@@ -10,7 +10,6 @@ def simulate(initial_state, t_max=40, dt=0.01):
     return t, trajectory
 
 def animate_trajectories():
-    # Параметри симуляції
     t, traj1 = simulate([1.0, 1.0, 1.0])
     _, traj2 = simulate([1.001, 1.0, 1.0])
 
@@ -21,7 +20,6 @@ def animate_trajectories():
     ax.set_zlim((5, 55))
     ax.set_title("Анімація атрактора Лоренца (2 траєкторії)")
 
-    # Лінії та точки для кожної траєкторії
     line1, = ax.plot([], [], [], lw=1, color='blue', label='[1,1,1]')
     dot1, = ax.plot([], [], [], 'o', color='blue')
     line2, = ax.plot([], [], [], lw=1, color='red', label='[1.001,1,1]')
@@ -29,13 +27,11 @@ def animate_trajectories():
     ax.legend()
 
     def update(num):
-        # Перша траєкторія
         line1.set_data(traj1[:num, 0], traj1[:num, 1])
         line1.set_3d_properties(traj1[:num, 2])
         dot1.set_data([traj1[num, 0]], [traj1[num, 1]])
         dot1.set_3d_properties([traj1[num, 2]])
 
-        # Друга траєкторія
         line2.set_data(traj2[:num, 0], traj2[:num, 1])
         line2.set_3d_properties(traj2[:num, 2])
         dot2.set_data([traj2[num, 0]], [traj2[num, 1]])
