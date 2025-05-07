@@ -25,7 +25,7 @@ class TestThomasAttractor(unittest.TestCase):
                            (ys1[-1] - ys2[-1]) ** 2 +
                            (zs1[-1] - zs2[-1]) ** 2)
 
-        self.assertGreater(distance, 0.5)
+        self.assertGreater(distance, 1)
 
     def test_length_of_output(self):
         steps = 1234

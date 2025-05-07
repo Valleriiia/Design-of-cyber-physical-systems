@@ -3,21 +3,21 @@ from matplotlib.animation import FuncAnimation
 from thomas_attractor import generate_trajectory
 
 dt = 0.01
-steps = 50000
+steps = 40000
 
 xs1, ys1, zs1 = generate_trajectory(0.1, 0, 0, dt, steps)
-xs2, ys2, zs2 = generate_trajectory(0.10001, 0, 0, dt, steps)
+xs2, ys2, zs2 = generate_trajectory(0.1001, 0, 0, dt, steps)
 
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 line1, = ax.plot([], [], [], lw=1, color='blue', label='x=0.1')
-line2, = ax.plot([], [], [], lw=1, color='red', label='x=0.10001')
+line2, = ax.plot([], [], [], lw=1, color='red', label='x=0.1001')
 point1, = ax.plot([], [], [], 'bo')
 point2, = ax.plot([], [], [], 'ro')
 
-ax.set_xlim(-10, 10)
-ax.set_ylim(-10, 10)
-ax.set_zlim(-10, 10)
+ax.set_xlim(-5, 5)
+ax.set_ylim(-5, 5)
+ax.set_zlim(-5, 5)
 ax.set_title("Анімація атрактора Томаса")
 ax.legend()
 
