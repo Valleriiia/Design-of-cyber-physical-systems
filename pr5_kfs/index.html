@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallel Genetic Algorithm for TSP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <h1>Паралельний генетичний алгоритм</h1>
+            <h2>Задача комівояжера</h2>
+        
+            <label for="numCities">Кількість міст:</label>
+            <input type="number" id="numCities" min="5" max="100" value="20">
+        
+            <label for="populationSize">Розмір популяції:</label>
+            <input type="number" id="populationSize" min="10" max="1000" value="100">
+        
+            <label for="numPopulations">Кількість популяцій:</label>
+            <input type="number" id="numPopulations" min="1" max="10" value="4">
+        
+            <label for="mutationRate">Ймовірність мутації:</label>
+            <input type="range" id="mutationRate" min="0.001" max="0.5" step="0.001" value="0.01">
+            <span id="mutationRateValue">0.01</span>
+        
+            <label for="crossoverRate">Ймовірність кросоверу:</label>
+            <input type="range" id="crossoverRate" min="0.1" max="1.0" step="0.01" value="0.9">
+            <span id="crossoverRateValue">0.9</span>
+            
+            <label for="elitismRate">Рівень елітизму:</label>
+            <input type="range" id="elitismRate" min="0.01" max="0.5" step="0.01" value="0.1">
+            <span id="elitismRateValue">0.1</span>
+        
+            <label for="migrationRate">Ймовірність міграції:</label>
+            <input type="range" id="migrationRate" min="0.01" max="0.5" step="0.01" value="0.05">
+            <span id="migrationRateValue">0.05</span>
+        
+            <label for="migrationInterval">Інтервал міграції:</label>
+            <input type="number" id="migrationInterval" min="1" max="100" value="10">
+        
+            <label for="maxIterations">Максимальна кількість ітерацій:</label>
+            <input type="number" id="maxIterations" min="10" max="10000" value="100">
+        
+            <label for="useUntilLastSurvivor">"До останнього живого":</label>
+            <input type="checkbox" id="useUntilLastSurvivor">
+        
+            <button id="generateCities">Згенерувати випадкові міста</button>
+            <button id="startAlgorithm">Запустити алгоритм</button>
+            <button id="pauseAlgorithm" disabled>Пауза</button>
+            <button id="resetAlgorithm">Скинути</button>
+        
+            <h3>Глобальна статистика</h3>
+            <div id="globalStats">
+                <p>Ітерація: <span id="currentIteration">0</span></p>
+                <p>Найкраща відстань: <span id="bestDistance">Н/Д</span></p>
+            </div>
+        </div>
+    
+        <div class="visualization">
+        
+            <div class="charts">
+                <div class="chart-container">
+                    <canvas id="fitnessChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <canvas id="diversityChart"></canvas>
+                </div>
+            </div>
+
+            <h2>Візуалізація TSP</h2>
+            <canvas id="tspCanvas" style="height: 600px;"></canvas>
+        
+            <h3>Статистика популяцій</h3>
+            <div class="stats">
+                <table class="stats-table">
+                    <thead>
+                        <tr>
+                            <th>Популяція</th>
+                            <th>Найкраща придатність</th>
+                            <th>Середня придатність</th>
+                            <th>Різноманітність</th>
+                        </tr>
+                    </thead>
+                    <tbody id="statsTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    
+    <script src="parallel-ga.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
