@@ -39,13 +39,29 @@ label {
     font-weight: 600;
 }
 
-input, select, button {
+input:not([type="checkbox"]), select, button {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+label:has(input[type="checkbox"]) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
 }
 
 button {
